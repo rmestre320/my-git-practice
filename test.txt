@@ -1,0 +1,12 @@
+touch test.txt
+
+git status
+
+git add test.txt
+
+git restore --stage test.txt
+
+git add test.txt
+
+git commit -m "Adding a new file for testing"
+// The -m stands for message
